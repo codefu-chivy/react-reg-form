@@ -1,0 +1,62 @@
+
+.login {
+  color: black;
+  width: 500px;
+  margin: 100px auto;
+  background-color: silver;
+  padding: 10px;
+  border-radius: 5px;
+  /*box-shadow: 4px 4px 4px black;*/
+}
+input {
+  margin: 4px;
+  box-shadow: inset 0.5px 0px 3px black !important;
+  border-radius: 3px !important;
+}
+#code {
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "shadows into light";
+  background-color: gray;
+  width: 140px;
+  height: 55px;
+  margin: 10px auto;
+  padding: 3px;
+}
+label {
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: dosis;
+}
+button {
+  margin-top: 10px;
+  margin-left: 380px;
+  width: 100px;
+  border-radius: 0px !important;
+}
+span {
+  font-size: 15px;
+}
+.password {
+  color: red;
+}
+h2 {
+  font-family: dosis;
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+h1 {
+  font-family: dosis;
+  text-align: center;
+  margin-bottom: -50px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .login {
+        width: 95%;
+    }
+}
